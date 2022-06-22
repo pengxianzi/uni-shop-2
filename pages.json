@@ -12,27 +12,25 @@
 		{
 			"root": "subpkg",
 			"pages": [
-				
 			{
-                    "path" : "goods_detail/goods_detail"
+                    "path" : "goods_detail/goods_detail",
+					"style": {
+						
+					}
                 }
                 ,{
                     "path" : "goods_list/goods_list",
-                    "style" :                                                                                    
-                {
-                    "navigationBarTitleText": "",
-                    "enablePullDownRefresh": false
-                }
-                
+					"style": {
+						"onReachBottomDistance": 150,
+						"enablePullDownRefresh": true,
+						"backgroundColor": "#f8f8f8"
+					}
                 }
                 ,{
                     "path" : "search/search",
-                    "style" :                                                                                    
-                {
-                    "navigationBarTitleText": "",
-                    "enablePullDownRefresh": false
-                }
-                
+                    "style": {
+                    	
+                    }
                 }
             ]
 		}
