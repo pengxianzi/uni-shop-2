@@ -1,5 +1,5 @@
 <template>
-	<view>
+	<view class="home">
 		<!-- 搜索组件 -->
 		<view class="search-box">
 			<my-search @click="gotoSearch"></my-search>
@@ -118,6 +118,11 @@
 </script>
 
 <style lang="scss">
+	.home{
+		background-color: white;
+	}
+	
+	
 	swiper{
 		height: 330rpx;
 		.swiper-item,image{

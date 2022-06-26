@@ -80,6 +80,7 @@
 	
 	.cart-container{
 		padding-bottom: 50px;
+		background-color: white;
 	}
 
 	.cart-title{

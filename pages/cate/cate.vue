@@ -1,5 +1,5 @@
 <template>
-	<view>
+	<view class="cate">
 		<!-- 使用自定义的搜索组件 -->
 		<my-search @click="gotoSearch"></my-search>
 		
@@ -96,6 +96,11 @@
 </script>
 
 <style lang="scss">
+	
+	
+	.cate{
+		background-color: white;
+	}
 
 .scroll-view-container{
 	display: flex;
